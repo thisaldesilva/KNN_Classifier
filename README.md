@@ -1,20 +1,24 @@
 # KNN_Classifier
 Implementation of an app using the Corona SDK and Lua that demonstrates the principle of KNN Algorithm (using pre-clustered data).
 
-## Task List:
+## Background
 
-- Implement an app using the Corona SDK and Lua that demonstrates the principle of the kNN algorithm.  Pre-clustered data will be supplied.
+* This project is about implementing and testing an app to simulate KKN (K- Nearest Neighbour), showing how it works allowing a user to input a target value and determine its class.
 
-- Create a three-minute video, demonstrating the functionality of your app.
+* kNN works by calculating the distance between each of the training set values and the target (unknown class) input, using some measure of distance.
 
-- Create a document containing: 
+* It then keeps the closest k values and uses those to determine the class of the target (by simply calculating which class has the most instances in the k set). 
 
-  * A list of the functional requirements for the app.
+* The application allows the user to select the means of voting, i.e, Simple Voting or Weighted Voting. A problem with simple voting to determine a class is that we gave equal weight to the contribution of all neighbours in the voting process.  This may not be realistic as the further away a neighbour is, the more it deviates from the real result. Therefore, to overcome this issue, a weighted voting algorithm has been determined where weights to the neighbours are allocated using the harmonic series.
   
-  * A diagram of the app screens (you might like to use a navigation map as you used in Systems Analysis).
-  
-  * Evidence of appropriate configuration management and test-driven development.
-  
-  * A record of the black box and unit tests you have completed to verify that your app works as expected o A COCOMO predictive model, based on your pooled data in your team (include three PSP time logs per person).
-  
-  
+## Distance Metrics
+
+Distance Metrics that are used:
+
+1. Euclidean Distance
+
+1. Manhattan Distance
+
+1. Chebyshev Distance
+
+1. Cosine Similarity  
