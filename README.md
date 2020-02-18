@@ -23,6 +23,6 @@ Distance Metrics that are used:
 
 1. Cosine Similarity  
 
-![](https://github.com/thisaldesilva/maintenance-scheduling-GA/blob/master/ss1.PNG)
+![](https://github.com/thisaldesilva/KNN_Classifier/blob/master/ss1.PNG)
 
-![](https://github.com/thisaldesilva/maintenance-scheduling-GA/blob/master/ss2.PNG)
+![](https://github.com/thisaldesilva/KNN_Classifier/blob/master/ss2.PNG)
