@@ -22,3 +22,5 @@ Distance Metrics that are used:
 1. Chebyshev Distance
 
 1. Cosine Similarity  
+
+![](https://github.com/thisaldesilva/maintenance-scheduling-GA/blob/master/images/table7.2.PNG)
