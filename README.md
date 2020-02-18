@@ -23,4 +23,6 @@ Distance Metrics that are used:
 
 1. Cosine Similarity  
 
-![](https://github.com/thisaldesilva/maintenance-scheduling-GA/blob/master/images/table7.2.PNG)
+![](https://github.com/thisaldesilva/maintenance-scheduling-GA/blob/master/ss1.PNG)
+
+![](https://github.com/thisaldesilva/maintenance-scheduling-GA/blob/master/ss2.PNG)
